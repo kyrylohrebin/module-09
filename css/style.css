@@ -57,16 +57,7 @@ ul {
   list-style: none;
 }
 
-.navigation {
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
 .header {
-  width: 100%;
   background-image: url("../img/img320.png");
   background-size: cover;
   background-color: rgb(26, 25, 21);
@@ -146,7 +137,7 @@ ul {
   line-height: 1.2;
   text-align: center;
   margin: 0 0 20px;
-  padding: 0 45px;
+  padding: 0 35px;
 }
 
 .func-btn {
@@ -155,12 +146,11 @@ ul {
   color: rgb(255, 255, 255);
   font-weight: bold;
   line-height: 1.2;
-  text-align: center;
   border-radius: 20px;
   background-color: rgb(255, 78, 80);
   width: 280px;
   height: 40px;
-  box-sizing: border-box;
+  margin: 0 auto;
   padding-top: 10px;
   cursor: pointer;
   transition: transform 0.2s linear;
@@ -168,6 +158,11 @@ ul {
 
 .func-btn:hover {
   transform: scale(1.1);
+}
+
+.subhead {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .partners {
