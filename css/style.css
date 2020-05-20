@@ -64,13 +64,11 @@ ul {
   background-repeat: no-repeat;
   padding-top: 20px;
   padding-bottom: 132px;
-  
 }
 
 .log-wrapper {
   margin: 0 auto 112px;
   text-align: center;
-  
 }
 
 .log-btn {
@@ -191,7 +189,7 @@ ul {
   flex-direction: column;
   align-items: center;
   width: 236px;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 
 .partner__list_item img {
@@ -330,6 +328,7 @@ ul {
   cursor: pointer;
   box-sizing: border-box;
   transition: border 0.2s linear, transform 0.2s linear;
+  margin: 0 auto;
 }
 
 .partner-btn:hover {
